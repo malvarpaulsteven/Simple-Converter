@@ -5,7 +5,7 @@ const feetToMeters = () => {
     const result = feet / meters;
 
     document.getElementById("resultContainer").value = result.toFixed(4);
-    alert("The length of " + `${feet}` + " feet/foot " + " in meter is " + `${result.toFixed(4)}` + ".");
+    // alert("The length of " + `${feet}` + " feet/foot " + " in meter is " + `${result.toFixed(4)}` + ".");
 }
 
 const feetToInches = () => {
@@ -14,7 +14,7 @@ const feetToInches = () => {
     const result = feet * inches;
 
     document.getElementById("resultContainer").value = result.toFixed(4);
-    alert("The length of " + `${feet}` + " feet/foot " + " in inches is " + `${result}` + ".");
+    // alert("The length of " + `${feet}` + " feet/foot " + " in inches is " + `${result}` + ".");
 }
 
 const feetToCm = () => {
@@ -23,7 +23,7 @@ const feetToCm = () => {
     const result = feet * cm;
 
     document.getElementById("resultContainer").value = result.toFixed(4);;
-    alert("The length of " + `${feet}` + " feet/foot " + " in cm is " + `${result.toFixed(4)}` + ".");
+    // alert("The length of " + `${feet}` + " feet/foot " + " in cm is " + `${result.toFixed(4)}` + ".");
 }
 
 const resetInputField = () => {
